@@ -23,6 +23,7 @@ class TestLogin(unittest.TestCase):
         self.driver.get("http://www.baidu.com")
         title = self.driver.title
         print title*2
+        print 233
 
 
 if __name__ == '__main__':
