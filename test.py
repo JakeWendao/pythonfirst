@@ -14,7 +14,7 @@ class TestLogin(unittest.TestCase):
         self.driver = webdriver.Firefox()
 
     def test_b(self):
-        self.driv er.get("http://www.baidu.com")
+        self.driver.get("http://www.baidu.com")
         title = self.driver.title
         print title
     def tearDown(self):
